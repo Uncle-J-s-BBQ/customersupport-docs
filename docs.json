@@ -3,11 +3,14 @@
   "theme": "luma",
   "name": "UncleBBQ Customer Support Base",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#B82025",
+    "light": "#F04444",
+    "dark": "#8F171C"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/GlossyRedDocumentStackIcon.png",
+    "dark": "/images/GlossyRedDocumentStackIcon.png"
+  },
   "navigation": {
     "pages": [
       {
@@ -34,8 +37,9 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/IMG_6116.png",
+    "dark": "/images/IMG_6116.png",
+    "href": "https://unclebbq.com"
   },
   "navbar": {
     "links": [
@@ -69,5 +73,13 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   },
-  "description": "Uncle J's Dirty Apron BBQ Customer Support Articles"
+  "description": "Uncle J's Dirty Apron BBQ Customer Support Articles",
+  "background": {
+    "image": "/images/UncleJ’sBBQDocumentationBadge.png",
+    "decoration": "gradient",
+    "color": {
+      "light": "#171717",
+      "dark": "#171717"
+    }
+  }
 }
