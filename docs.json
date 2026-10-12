@@ -81,5 +81,13 @@
       }
     ]
   },
-  "description": "Uncle J's Dirty Apron BBQ Customer Support Articles"
+  "description": "Uncle J's Dirty Apron BBQ Customer Support Articles",
+  "thumbnails": {
+    "background": "/images/UncleJ’sDocumentationBBQBanner-1.png"
+  },
+  "errors": {
+    "404": {
+      "redirect": false
+    }
+  }
 }
