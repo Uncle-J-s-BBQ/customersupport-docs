@@ -12,15 +12,6 @@
     "dark": "/images/GlossyRedDocumentStackIcon.png"
   },
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
@@ -34,7 +25,70 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Customer Service",
+        "pages": [
+          "customer-service/overview",
+          {
+            "group": "Pitmaster Rewards",
+            "pages": [
+              "customer-service/pitmaster-rewards",
+              "customer-service/rewards-faq"
+            ]
+          },
+          {
+            "group": "Account & Privacy",
+            "pages": [
+              "customer-service/account-deletion",
+              "customer-service/privacy-rights-overview",
+              "customer-service/manage-account"
+            ]
+          },
+          {
+            "group": "Orders & Refunds",
+            "pages": [
+              "customer-service/refund-policy"
+            ]
+          },
+          {
+            "group": "Ordering",
+            "pages": [
+              "customer-service/online-ordering",
+              "customer-service/delivery-pickup",
+              "customer-service/discount-codes"
+            ]
+          },
+          {
+            "group": "Catering",
+            "pages": [
+              "customer-service/catering"
+            ]
+          },
+          {
+            "group": "General",
+            "pages": [
+              "customer-service/contact-hours",
+              "customer-service/email-subscriptions"
+            ]
+          },
+          {
+            "group": "Menu & Food",
+            "pages": [
+              "customer-service/allergens-dietary"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/images/UncleJ’sDirtyApronDocumentationLogo-2.png",
