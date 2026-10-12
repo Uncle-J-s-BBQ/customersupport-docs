@@ -37,21 +37,15 @@
     }
   },
   "logo": {
-    "light": "/images/IMG_6116.png",
-    "dark": "/images/IMG_6116.png",
+    "light": "/images/UncleJ’sDirtyApronDocumentationLogo-2.png",
+    "dark": "/images/UncleJ’sDirtyApronDocumentationLogo-2.png",
     "href": "https://unclebbq.com"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Customer Support",
+      "href": "https://customersupport.unclebbq.com"
     }
   },
   "contextual": {
@@ -67,19 +61,25 @@
     ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "links": [
+      {
+        "header": "Legal Policies",
+        "items": [
+          {
+            "label": "Terms of Service",
+            "href": "https://unclebbq.com/terms"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://unclebbq.com/privacy"
+          },
+          {
+            "label": "AI Policy",
+            "href": "https://unclebbq.com/ai-policy"
+          }
+        ]
+      }
+    ]
   },
-  "description": "Uncle J's Dirty Apron BBQ Customer Support Articles",
-  "background": {
-    "image": "/images/UncleJ’sBBQDocumentationBadge.png",
-    "decoration": "gradient",
-    "color": {
-      "light": "#171717",
-      "dark": "#171717"
-    }
-  }
+  "description": "Uncle J's Dirty Apron BBQ Customer Support Articles"
 }
